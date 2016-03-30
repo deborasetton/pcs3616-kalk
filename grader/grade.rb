@@ -10,8 +10,9 @@ NOISY_TYPES = [
 ['byebug', 'paint'].each do |lib|
   begin
     require(lib)
-  rescue => e
+  rescue LoadError => e
     puts "Gem '#{lib}' não encontrada. Execute 'gem install #{lib}' e tente novamente."
+    exit(1) 
   end
 end
 
