@@ -1,0 +1,28 @@
+/**
+ * MACROS EM KALK
+ */
+
+// Uma macro é um nome dado a uma sequência de caracteres.
+// Toda vez que o identificador de uma macro aparecer no código-fonte, ele será
+// substituído pelo valor da macro.
+
+// A declaração de uma macro consiste do identificador da macro (o caractere
+// "$" faz parte do identificador), seguido de ":", seguido de uma expressão,
+// seguida de ";".
+
+// Os identificadores de macros obedecem às mesmas regras dos identificadores
+// comuns, mas:
+// - Devem começar com "$"; e
+// - Letras, quando presentes, devem estar em maiúsculas.
+
+$EXPRESSAO_SOMA : ( a + b ) ;
+$MACRO_1 : a ;
+
+// Espaços são opcionais, uma vez que não existe ambiguidade.
+$EXPRESSAO_SOMA:(a+b);
+$MACRO_1:a;
+
+// Após serem declaradas, macros podem aparecer em um comando como se fossem
+// variáveis, embora a semântica da expressão seja diferente.
+
+a = b + $EXPRESSAO_SOMA;

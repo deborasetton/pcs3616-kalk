@@ -1,0 +1,34 @@
+001) [1:0] [COMMENT_BLOCK] /**
+ * COMENTÁRIOS EM KALK
+ */
+002) [3:3] [WHITESPACE] 
+
+
+003) [5:0] [COMMENT_BLOCK] /*
+ * A linguagem Kalk suporta dois tipos de comentários: comentários de bloco
+ * como este, que podem ocupar mais de uma linha, e comentários de linha,
+ * descritos mais abaixo.
+ */
+004) [9:3] [WHITESPACE] 
+
+
+005) [11:0] [COMMENT_BLOCK] /* Este é um comentário de bloco que ocupa apenas uma linha. */
+006) [11:63] [WHITESPACE] 
+
+
+007) [13:0] [COMMENT_BLOCK] /* Assim como em C, comentários de bloco não podem ser aninhados.
+ * Por exemplo: não poderíamos colocar um /* seguido de * / (sem
+ * o espaço) aqui dentro. */
+008) [15:28] [WHITESPACE] 
+
+
+009) [17:0] [COMMENT_LINE] // Este é um comentário de linha. Este tipo de comentário começa com "//"
+
+010) [18:0] [COMMENT_LINE] // e é finalizado quando por um caractere de término de linha
+
+011) [19:0] [COMMENT_LINE] // (\n, \r ou \r\n).
+
+012) [20:0] [LINE_TERMINATOR] 
+
+013) [21:0] [COMMENT_LINE] //// Mais um comentário de teste.
+

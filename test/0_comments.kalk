@@ -1,0 +1,21 @@
+/**
+ * COMENTÁRIOS EM KALK
+ */
+
+/*
+ * A linguagem Kalk suporta dois tipos de comentários: comentários de bloco
+ * como este, que podem ocupar mais de uma linha, e comentários de linha,
+ * descritos mais abaixo.
+ */
+
+/* Este é um comentário de bloco que ocupa apenas uma linha. */
+
+/* Assim como em C, comentários de bloco não podem ser aninhados.
+ * Por exemplo: não poderíamos colocar um /* seguido de * / (sem
+ * o espaço) aqui dentro. */
+
+// Este é um comentário de linha. Este tipo de comentário começa com "//"
+// e é finalizado quando por um caractere de término de linha
+// (\n, \r ou \r\n).
+
+//// Mais um comentário de teste.

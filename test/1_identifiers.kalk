@@ -1,0 +1,52 @@
+/**
+ * IDENTIFICADORES EM KALK
+ */
+
+// Em Kalk, os identificadores são usados para os nomes de variáveis.
+
+// Um identificador deve começar com uma letra ou um underscore (_) e, em
+// seguida, podem aparecer letras, underscores ou dígitos.
+
+// TODO!
+// Um identificador pode ter, no máximo, 64 caracteres.
+
+// A linguagem é case-sensitive.
+
+// Todos os exemplos abaixo são identificadores válidos.
+// O ponto-e-vírgula é usado apenas para tornar o programa sintaticamente
+// correto, e não faz parte do identificador!
+
+// Só letras.
+x              ;
+abcd           ;
+aaaabbbbcccc   ;
+
+// Maiúsculas e minúsculas.
+aBcD           ;
+ABCD           ;
+
+// Letras e números.
+x1             ;
+A700           ;
+x1000          ;
+a1b2c3         ;
+a000000b       ;
+
+// Letras, números e underscores.
+_x             ;
+_x1            ;
+__abcd__       ;
+_              ;
+__             ;
+__VAR__        ;
+__VAR_1__      ;
+__VAR_2__      ;
+_________      ;
+
+// Caracteres acentuados.
+usuário_joão   ;
+peça_de_xadrez ;
+
+// Muito longo.
+abcdefghijklmnopqrstuvzxabcdefghijklmnopqrstuvzxabcdefghijklmnopq ;
+a937224a4707da6e63dcc8c35c2c7944d_____                            ;

@@ -1,0 +1,47 @@
+/**
+ * COMANDOS (STATEMENTS) EM KALK
+ */
+
+// Um programa em Kalk é uma sequência de comandos (statements).
+// Existem dois tipos de comandos:
+// - Expressão matemática
+// - Atribuição
+
+// Comandos são finalizados por ";"
+
+// Note que o "comando" é uma conceito sintático, e não léxico.
+// No entanto, para que o analisador sintático possa decidir se um comando é
+// válido, ele precisará dos tokens gerados pelo léxico.
+
+// Comandos do tipo "expressão matemática":
+
+// Expressões constantes
+1                                    ;
+1 + 1                                ;
+( 25 * 3 / 2 )                       ;
+((.5e10 * 52_000 - 1) + .2) * -1     ;
+
+// Expressões com variáveis
+a                                    ;
+a + b                                ;
+(1 + c) * (2 + d)                    ;
+
+// Espaços são opcionais
+1+1                                  ;
+(25*3/2)                             ;
+(1+c)*(2+d)                          ;
+2-2                                  ;
+2--8                                 ;
+
+// Comandos do tipo "atribuição":
+a = 2                                ;
+a = 2 * 3                            ;
+xyz = (1+2)/(3+4)                    ;
+
+// Mais expressões
+-1                                   ;
+1-1                                  ;
+a-2                                  ;
+(c+d)-3                              ;
+1--1                                 ;
+1-2                                  ;

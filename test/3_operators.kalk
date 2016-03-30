@@ -1,0 +1,23 @@
+/**
+ * OPERADORES EM KALK
+ */
+
+// Existem 6 operações e operadores na linguagem, como mostrado abaixo.
+
+// Soma (+)
+1 + 1      ;
+
+// Subtração (-)
+1 - 1      ;
+
+// Multiplicação (*)
+1 * 1      ;
+
+// Divisão (/)
+1 / 1      ;
+
+// Módulo (%)
+1 % 1      ;
+
+// Exponenciação (^)
+1 ^ 1      ;

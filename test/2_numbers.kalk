@@ -1,0 +1,43 @@
+/**
+ * NÚMEROS EM KALK
+ */
+
+// Existem três representações de números, sempre em base decimal:
+// - Números inteiros
+// - Números em ponto flutuante (floats)
+// - Números em notação exponencial
+
+// Inteiros
+1                 ;
+29                ;
+3464578           ;
+00002             ;
+
+// O caractere "_" (underscore) pode ser usado para aumentar a legibilidade
+// de um número, e não tem nenhum efeito sobre o seu valor.
+// Por exemplo: 10_000 é uma forma mais legível de escrever 10000, e ambos
+// são válidos.
+// No entanto, o "_" só pode aparecer no meio de um número (não pode ser nem
+// o primeiro e nem o último caractere), e não pode aparecer duas vezes seguidas.
+
+12_000            ;
+12_000_000        ;
+1_2_3             ;
+
+// Floats
+1.0               ;
+1.457             ;
+.5                ;
+10_000.5          ;
+5_2.5_2           ;
+
+// Um número em notação exponencial é um número simples (inteiro ou float)
+// seguido da letra "e" (minúscula), seguido de um exponente, que
+// é um número inteiro. O expoente não pode ser float.
+
+1e6               ;
+9e37              ;
+32e78             ;
+.5e6              ;
+3.4e3             ;
+1.9999e25         ;
