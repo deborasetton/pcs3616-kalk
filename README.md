@@ -107,7 +107,7 @@ KalkLexerError: Caractere inválido: '?' (0:0)
 make run_file FILE=caminho/para/um/arquivo.kalk
 ```
 
-#### Correção
+### Correção
 
 - Corrigir apenas um tipo de construção:
    ```
@@ -119,7 +119,7 @@ make run_file FILE=caminho/para/um/arquivo.kalk
    grader/grade.rb
    ```
 
-#### Entrega
+### Entrega
 
 Entregar um arquivo zip, `kalk.zip` contendo **apenas** os seguintes arquivos:
 - kalk.flex
